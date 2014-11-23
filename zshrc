@@ -37,7 +37,7 @@ alias cpana='cpan2dist --format CPANPLUS::Dist::Arch'
 alias yao='yaourt --noconfirm'
 alias zst='sudo zpool status'
 alias zls='sudo zpool list && sudo zfs list'
-aias dirsizes="du -h | sort -h"
+alias dirsize="du -h | sort -h"
 
 #zprof
 
