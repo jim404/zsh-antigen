@@ -1,7 +1,7 @@
 
 PROMPT='
 %{$FG[040]%}%n%{$reset_color%} %{$FG[243]%}@%{$reset_color%} %{$FG[226]%}%m%{$reset_color%} %{$FG[243]%}in%{$reset_color%} %{$terminfo[bold]%}%{$FG[033]%}%4~%{$reset_color%}$(git_prompt_info)$(svn_prompt_info)
-%(0?..%{$FG[202]%}[%?] )%(!.%{$FG[202]%}.%{$FG[040]%})➜%{$reset_color%}  '
+%(0?..%{$FG[202]%}[%?] )%(!.%{$FG[202]%}.%{$FG[040]%})>%{$reset_color%}  '
 
 # ZSH_PROMPT_BASE_COLOR="%{$fg_bold[blue]%}"
 # ZSH_THEME_REPO_NAME_COLOR="%{$fg_bold[yellow]%}"

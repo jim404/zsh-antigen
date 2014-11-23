@@ -20,6 +20,7 @@ antigen-theme $ZSHA_BASE/themes/jim.zsh-theme
 antigen-apply
 
 alias fucking='sudo'
+alias rscp='rsync -aP'
 alias wtf='history | grep'
 alias sd='meld . &'
 alias st='svn st'
@@ -31,8 +32,12 @@ alias showlinks='find . -type l -exec ls -l {} \;'
 alias installed='pacman -Qq'
 alias cpana='cpan2dist --format CPANPLUS::Dist::Arch'
 alias yao='yaourt --noconfirm'
+alias zst='sudo zpool status'
+alias zls='sudo zpool list && sudo zfs list'
 
 #zprof
+
+eval `dircolors -b $ZSHA_BASE/dircolors`
 
 # export PATH="/home/jim/perl5/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-7-oracle/db/bin:/usr/lib/jvm/java-7-oracle/jre/bin"
 # eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
