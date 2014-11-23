@@ -25,6 +25,7 @@ alias wtf='history | grep'
 alias sd='meld . &'
 alias st='svn st'
 alias si='svn info'
+alias sup="svn up"
 alias sr='svn revert'
 alias sc="svn status | grep -P '^(?=.{0,6}C)'"
 alias fulldiff='svn diff --diff-cmd=diff -x -U999999'
@@ -36,6 +37,7 @@ alias cpana='cpan2dist --format CPANPLUS::Dist::Arch'
 alias yao='yaourt --noconfirm'
 alias zst='sudo zpool status'
 alias zls='sudo zpool list && sudo zfs list'
+aias dirsizes="du -h | sort -h"
 
 #zprof
 
