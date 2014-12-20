@@ -35,9 +35,11 @@ alias showlinks='find . -type l -exec ls -l {} \;'
 alias installed='pacman -Qq'
 alias cpana='cpan2dist --format CPANPLUS::Dist::Arch'
 alias yao='yaourt --noconfirm'
-alias zst='sudo zpool status'
-alias zls='sudo zpool list && sudo zfs list'
-alias dirsize="du -h | sort -h"
+alias yolo='yaupg --noconfirm'
+alias zst='sudo echo && sudo zpool status'
+alias zls='sudo zpool list && echo && sudo zfs list'
+alias zi='zst && echo && zls'
+alias ds="du -h | pv | sort -h"
 
 #zprof
 
