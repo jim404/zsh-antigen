@@ -39,6 +39,9 @@ alias zst='sudo zpool status'
 alias zls='sudo zpool list && sudo zfs list'
 alias dirsize="du -h | sort -h"
 
+alias grep="/usr/bin/grep $GREP_OPTIONS"
+unset GREP_OPTIONS
+
 #zprof
 
 eval `dircolors -b $ZSHA_BASE/dircolors`
