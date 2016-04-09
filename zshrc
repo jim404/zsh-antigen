@@ -40,13 +40,11 @@ alias zst='sudo echo && sudo zpool status'
 alias zls='sudo zpool list && echo && sudo zfs list'
 alias zi='zst && echo && zls'
 alias ds="du -h | pv | sort -h"
+alias jump="sshuttle --dns -vvr jim@195.224.160.19 10.0.0.0/0 -vv"
 
-alias grep="/usr/bin/grep $GREP_OPTIONS"
+alias grep="/usr/bin/grep ${GREP_OPTIONS}"
 unset GREP_OPTIONS
 
 #zprof
 
 eval `dircolors -b $ZSHA_BASE/dircolors`
-
-# export PATH="/home/jim/perl5/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-7-oracle/db/bin:/usr/lib/jvm/java-7-oracle/jre/bin"
-# eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
